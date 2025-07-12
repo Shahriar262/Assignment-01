@@ -55,3 +55,31 @@ nav{
     font-size: 65px;
    
 }
+/* main section */
+
+
+.hero-container{
+ display: flex;
+ background-color: #FFFFFF
+ align-items: center;
+ gap: 40px;
+ padding: 25px;
+ justify-content: space-between;
+ 
+ 
+}
+.hero-container img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.hero-container h1{
+    font-size: 42px;
+}
+.hero-container p{
+    font-size: 24px;
+}
+main{
+    max-width: 1270px;
+    margin: 150px 150px;
+}
