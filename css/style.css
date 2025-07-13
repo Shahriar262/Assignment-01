@@ -15,6 +15,10 @@
   
   font-style: normal;
 }
+
+.logo-span{
+    color: #FD6E0A;
+}
 /* header style */
 .header{
     background-image: url('../images/Hero-bg.png');
@@ -137,6 +141,9 @@ main{
    
    
 }
+.p-avatar{
+    text-align: left;
+}
 .card{
     display: flex;
     gap: 50px;
@@ -213,4 +220,33 @@ main{
 .btn-primary:hover{
     cursor: pointer;
     background-color: rgb(110, 173, 173)
+}
+
+/* footer styles */
+footer{
+    margin-bottom: 100px;
+    padding: 40px 20px;
+    background-color: rgba(78,71,255,0.1);
+}
+.logo-footer{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-description{
+    line-height: 1.5;
+    margin: 20px auto 10px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    
+    
+}
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+   
 }
